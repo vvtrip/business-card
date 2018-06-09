@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:alpha="@dimen/alpha"
+        android:scaleType="fitXY"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/logotopmargin"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/nametopmargin"
+        android:text="@string/companyname"
+        android:textColor="@color/black"
+        android:textSize="@dimen/namesize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="@dimen/iconwidth"
+        android:layout_height="@dimen/iconheight"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/iconleftmargin"
+        android:src="@drawable/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openhours"
+        android:layout_marginLeft="@dimen/valueleftmargin"
+        android:layout_marginTop="@dimen/timetopmargin"
+        android:layout_toRightOf="@+id/time"
+        android:textColor="@color/black"
+        android:textSize="@dimen/namesize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dialer"
+        android:layout_width="@dimen/iconwidth"
+        android:layout_height="@dimen/iconheight"
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="@dimen/iconleftmargin"
+        android:layout_marginTop="@dimen/iconmargintop"
+        android:src="@drawable/dialler" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/valueleftmargin"
+        android:layout_marginTop="@dimen/dialertopmargin"
+        android:layout_toRightOf="@+id/dialer"
+        android:autoLink="phone"
+        android:text="@string/contact"
+        android:textColor="@color/black"
+        android:textSize="@dimen/namesize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pin"
+        android:layout_width="@dimen/iconwidth"
+        android:layout_height="@dimen/iconheight"
+        android:layout_below="@+id/dialer"
+        android:layout_marginLeft="@dimen/iconleftmargin"
+        android:layout_marginTop="@dimen/iconmargintop"
+        android:src="@drawable/pin" />
+
+    <TextView
+        android:layout_width="@dimen/mapwidth"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pin"
+        android:layout_marginLeft="@dimen/valueleftmargin"
+        android:layout_toRightOf="@+id/pin"
+        android:autoLink="web"
+        android:text="@string/map"
+        android:textColor="@color/black"
+        android:textSize="@dimen/linksize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/globe"
+        android:layout_width="@dimen/iconwidth"
+        android:layout_height="@dimen/iconheight"
+        android:layout_below="@+id/pin"
+        android:layout_marginLeft="@dimen/iconleftmargin"
+        android:layout_marginTop="@dimen/iconmargintop"
+        android:src="@drawable/globe" />
+
+    <TextView
+        android:layout_width="@dimen/webwidth"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/webbottommargin"
+        android:layout_marginLeft="@dimen/valueleftmargin"
+        android:layout_toRightOf="@+id/globe"
+        android:autoLink="web"
+        android:text="@string/web"
+        android:textColor="@color/black"
+        android:textSize="@dimen/linksize"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

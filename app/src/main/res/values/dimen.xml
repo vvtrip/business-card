@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alpha">0.5</dimen>
+    <dimen name="logotopmargin">40dp</dimen>
+    <dimen name="nametopmargin">200dp</dimen>
+    <dimen name="namesize">20sp</dimen>
+    <dimen name="linksize">15sp</dimen>
+    <dimen name="iconwidth">44dp</dimen>
+    <dimen name="iconheight">50dp</dimen>
+    <dimen name="iconleftmargin">40dp</dimen>
+    <dimen name="valueleftmargin">50dp</dimen>
+    <dimen name="timetopmargin">270dp</dimen>
+    <dimen name="iconmargintop">30dp</dimen>
+    <dimen name="dialertopmargin">350dp</dimen>
+    <dimen name="mapwidth">150dp</dimen>
+    <dimen name="webwidth">191dp</dimen>
+    <dimen name="webbottommargin">25dp</dimen>
+</resources>

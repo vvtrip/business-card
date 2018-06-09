@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="map">https://goo.gl/maps/pxjAMzN7tV82</string>
+    <string name="web">http://shiva-aerosol-trading-co.business.site/</string>
+    <string name="companyname">SHIVA AEROSOL TRADING CO.</string>
+    <string name="openhours">9:00 - 17:00</string>
+    <string name="contact">801-012-3588</string>
+</resources>
