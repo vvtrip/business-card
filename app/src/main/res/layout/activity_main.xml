@@ -70,6 +70,7 @@
         android:autoLink="phone"
         android:text="@string/contact"
         android:textColor="@color/black"
+        android:textColorLink="@color/black"
         android:textSize="@dimen/namesize"
         android:textStyle="bold" />
 
@@ -91,6 +92,7 @@
         android:autoLink="web"
         android:text="@string/map"
         android:textColor="@color/black"
+        android:textColorLink="@color/black"
         android:textSize="@dimen/linksize"
         android:textStyle="bold" />
 
@@ -113,6 +115,7 @@
         android:autoLink="web"
         android:text="@string/web"
         android:textColor="@color/black"
+        android:textColorLink="@color/black"
         android:textSize="@dimen/linksize"
         android:textStyle="bold" />
 
